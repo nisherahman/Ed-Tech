@@ -63,7 +63,10 @@
           <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img class="img-fluid w-100" src="images/slider/slider1.png" class="d-block w-100" alt="slider1.png">
+                <div class="slider-img position-relative">
+                  <img class="img-fluid w-100" src="images/slider/slider1.png" class="d-block w-100" alt="slider1.png">
+                </div>
+                <div class="slider-overlay position-absolute w-100 h-100 top-0 start-0"></div>
                 <div class="carousel-caption">
                   <div class="slider-text">
                     <h2 class="fw-semibold display-4">Get Started Digital Learning</h2>
@@ -77,7 +80,10 @@
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="images/slider/slider2.png" class="d-block w-100" alt="slider2.png">
+                <div class="slider-img position-relative">
+                  <img class="img-fluid w-100" src="images/slider/slider2.png" class="d-block w-100" alt="slider2.png">
+                </div>
+                <div class="slider-overlay position-absolute w-100 h-100 top-0 start-0"></div>
                 <div class="carousel-caption">
                   <div class="slider-text">
                     <h2 class="fw-semibold display-4">Get Started Digital Learning</h2>
@@ -91,7 +97,10 @@
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="images/slider/slider3.png" class="d-block w-100" alt="slider3.png">
+                <div class="slider-img position-relative">
+                  <img class="img-fluid w-100" src="images/slider/slider3.png" class="d-block w-100" alt="slider3.png">
+                </div>
+                <div class="slider-overlay position-absolute w-100 h-100 top-0 start-0"></div>
                 <div class="carousel-caption">
                   <div class="slider-text">
                     <h2 class="fw-semibold display-4">Get Started Digital Learning</h2>
@@ -130,7 +139,7 @@
               <div class="course-item mt-4 mt-lg-5 mt-md-5 mt-sm-4 d-flex flex-wrap">
                 <div class="col-lg-6">
                   <div class="course-detail">
-                    <div class="card mb-3;">
+                    <div class="card mb-3">
                       <div class="row g-0">
                         <div class="col-md-4">
                           <img class="img-fluid w-100" src="images/course/course-1.png" class="img-fluid rounded-start" alt="course-1.png">
@@ -147,9 +156,9 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 ">
                   <div class="course-detail">
-                    <div class="card mb-3 mt-3 mt-lg-0 ml-3">
+                    <div class="card mb-3 mt-3 mt-lg-0">
                       <div class="row g-0">
                         <div class="col-md-4">
                           <img class="img-fluid w-100" src="images/course/course-2.png" class="img-fluid rounded-start" alt="course-2.png">
@@ -247,7 +256,7 @@
           </div>
         </section>
         <div class="button text-center my-3 my-lg-5 my-md-4 my-sm-4">
-          <button class="btn all-btn fw-bold text-white px-4 py-3">See More Courses</button>
+          <a class="btn all-btn fw-bold text-white px-4 py-3">See More Courses</a>
         </div>
       <!-- courses item part ends -->
 
@@ -264,12 +273,40 @@
             </div>
             <div class="col-lg-6 py-0 py-lg-5 py-md-2">
               <div class="button text-center my-4 my-lg-5 my-sm-4">
-                <button class="btn btn-white fw-bold text-white px-4 py-3">Register Now</button>
+                <a class="btn btn-white fw-bold text-white px-4 py-3" data-bs-toggle="modal" data-bs-target="#exampleModal">Register Now</a>
               </div>
             </div>
           </div>
         </div>
       </section>
+       <!-- Modal -->
+       <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title text-uppercase fw-bold" id="exampleModalLabel">Register Form</h5>
+              <button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="modal-img position-relative">
+                    <img src="images/student/student-2.png" alt="student-2.png" class="img-fluid w-100">
+                    <div class="modal-overlay position-absolute w-100 h-100 start-0 top-0"></div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="modal-form"></div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <!-- join part ends -->
 
       <!-- frequently question part starts -->
