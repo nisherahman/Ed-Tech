@@ -1,19 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
 body{
     font-family: 'Poppins', sans-serif;
-}
-.cmn-color{
-    color:#289BDE !important
-}
-.all-btn{
-    background-color: #289BDE;
-    border-radius: 5px;
-    transition: all linear 0.4s;
-}
-.all-btn:hover{
-    background-color: #289BDE;
-    border-radius: 5px;
 }
 .slider-section .slider-overlay{
     background: rgba(0, 0, 0,0.6);
@@ -24,20 +11,8 @@ body{
 .course-p-col{
     color: #777777;
 }
-.join-background{
-    background: #289BDE;
-}
 .join-p-col{
     color:#F4F4F4;
-}
-.btn-white{
-    background:white;
-    color:#289BDE !important;
-    transition:all linear 0.4s;
-}
-.btn-white:hover{
-    background:white !important;
-    color:#289BDE !important;
 }
 .modal{
     z-index: 99999;
