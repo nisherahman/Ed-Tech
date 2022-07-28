@@ -64,7 +64,7 @@
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <div class="slider-img position-relative">
-                  <img class="img-fluid w-100" src="images/slider/slider1.png" class="d-block w-100" alt="slider1.png">
+                  <img src="images/slider/slider1.png" class="d-block img-fluid w-100" alt="slider1.png">
                 </div>
                 <div class="slider-overlay position-absolute w-100 h-100 top-0 start-0"></div>
                 <div class="carousel-caption">
@@ -81,7 +81,7 @@
               </div>
               <div class="carousel-item">
                 <div class="slider-img position-relative">
-                  <img class="img-fluid w-100" src="images/slider/slider2.png" class="d-block w-100" alt="slider2.png">
+                  <img src="images/slider/slider2.png" class="d-block img-fluid w-100" alt="slider2.png">
                 </div>
                 <div class="slider-overlay position-absolute w-100 h-100 top-0 start-0"></div>
                 <div class="carousel-caption">
@@ -91,14 +91,14 @@
                     </p>
                     <p class="fw-normal">content of a page when looking at its layout.</p>
                     <div class="button pb-3 pb-lg-5 pb-md-4 pb-sm-3">
-                      <button class="btn all-btn text-white">Get Started</button>
+                      <button class="btn all-btn fw-semibold px-5 py-3 text-white">Get Started</button>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="carousel-item">
                 <div class="slider-img position-relative">
-                  <img class="img-fluid w-100" src="images/slider/slider3.png" class="d-block w-100" alt="slider3.png">
+                  <img src="images/slider/slider3.png" class="d-block img-fluid w-100" alt="slider3.png">
                 </div>
                 <div class="slider-overlay position-absolute w-100 h-100 top-0 start-0"></div>
                 <div class="carousel-caption">
@@ -108,7 +108,7 @@
                     </p>
                     <p class="fw-normal">content of a page when looking at its layout.</p>
                     <div class="button pb-3 pb-lg-5 pb-md-4 pb-sm-3">
-                      <button class="btn all-btn text-white">Get Started</button>
+                      <button class="btn all-btn fw-semibold px-5 py-3 text-white">Get Started</button>
                     </div>
                   </div>
                 </div>
@@ -282,31 +282,45 @@
        <!-- Modal -->
        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title text-uppercase fw-bold" id="exampleModalLabel">Register Form</h5>
-              <button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <div class="row">
-                <div class="col-lg-6">
-                  <div class="modal-img position-relative">
-                    <img src="images/student/student-2.png" alt="student-2.png" class="img-fluid w-100">
-                    <div class="modal-overlay position-absolute w-100 h-100 start-0 top-0"></div>
+          <form action="">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title text-uppercase fw-bold" id="exampleModalLabel">Register Form</h5>
+                <button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="modal-img position-relative">
+                      <img src="images/student/student-2.png" alt="student-2.png" class="img-fluid w-100">
+                      <div class="modal-overlay position-absolute w-100 h-100 start-0 top-0"></div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="modal-form">
+                      <div class="mb-3">
+                        <label class="form-label text-capitalize fw-bold">your name</label>
+                        <input type="text" class="form-control">
+                      </div>
+                      <div class="mb-3">
+                        <label class="form-label text-capitalize fw-bold">your Email</label>
+                        <input type="email" class="form-control">
+                      </div>
+                      <div class="mb-3">
+                        <label class="form-label text-capitalize fw-bold">your password</label>
+                        <input type="password" class="form-control">
+                      </div>
+                    </div>
                   </div>
                 </div>
-                <div class="col-lg-6">
-                  <div class="modal-form"></div>
-                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="Submit" class="btn all-btn fw-semibold text-uppercase text-white">Submit</button>
               </div>
             </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-primary">Save changes</button>
-            </div>
-          </div>
+        </form>
         </div>
       </div>
-
       <!-- join part ends -->
 
       <!-- frequently question part starts -->
